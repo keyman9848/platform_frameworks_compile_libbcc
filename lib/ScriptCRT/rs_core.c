@@ -104,7 +104,6 @@ rsMatrixGet(const rs_matrix2x2 *m, uint32_t row, uint32_t col) {
     return m->m[row * 2 + col];
 }
 
-/*
 extern float4 __attribute__((overloadable))
 rsMatrixMultiply(const rs_matrix4x4 *m, float4 in) {
     float4 ret;
@@ -172,7 +171,6 @@ extern float3 __attribute__((overloadable))
 rsMatrixMultiply(rs_matrix3x3 *m, float2 in) {
     return rsMatrixMultiply((const rs_matrix3x3 *)m, in);
 }
-*/
 
 extern float2 __attribute__((overloadable))
 rsMatrixMultiply(const rs_matrix2x2 *m, float2 in) {
