@@ -311,4 +311,3 @@ rsMatrixMultiply(rs_matrix2x2 *lhs, const rs_matrix2x2 *rhs) {
     rsMatrixLoadMultiply(&r, lhs, rhs);
     rsMatrixLoad(lhs, &r);
 }
-
